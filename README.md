@@ -20,34 +20,6 @@ Traffic light behavior by count value:
 - **Output Devices:** 7SEG-COM-ANODE, LED-GREEN, LED-YELLOW, LED-RED
 - **Passives and Inputs:** BUTTON, CAP-ELEC (10uF), resistors (10K, 68K, 220K, 220 ohm)
 
-## Bill of Materials (BOM)
-
-| Category | Component / Model | Description / Purpose | Quantity |
-|---|---|---|---|
-| Integrated Circuits (ICs) | NE555 | Timer IC (generates the clock pulse) | 1 |
-| | 74LS193 | 4-Bit Up/Down Synchronous Counter | 1 |
-| | 74LS47 | BCD to 7-Segment Decoder/Driver | 1 |
-| | 74LS04 | Hex Inverter (Provides NOT gates for U6, U10) | 1 |
-| | 74LS08 | Quad 2-Input AND (Provides AND gate for U7) | 1 |
-| | 74LS21 | Dual 4-Input AND (Provides AND gate for U8) | 1 |
-| | 74LS32 | Quad 2-Input OR (For U5, U9, + leftover gates for optimized U3) | 1 |
-| | 74LS02 | Quad 2-Input NOR (For U11, + leftover gate for optimized U3) | 1 |
-| Displays & LEDs | 7-Segment Display | Common Anode type (critical for 74LS47 compatibility) | 1 |
-| | 5mm LED (Green) | Visualizes standard output logic | 1 |
-| | 5mm LED (Yellow) | Visualizes standard output logic | 1 |
-| | 5mm LED (Red) | Visualizes standard output logic | 1 |
-| Resistors (1/4 Watt) | 220Ω | Current limiting (7 for display segments, 3 for LEDs) | 10 |
-| | 10kΩ | Pull-down/pull-up resistor for the switch (R3) | 1 |
-| | 68kΩ | Timing resistor for NE555 (R2) | 1 |
-| | 220kΩ | Timing resistor for NE555 (R1) | 1 |
-| Capacitors | 10µF Electrolytic | Timing capacitors for NE555 (C1, C2). Watch polarity! | 2 |
-| | 0.1µF (100nF) Ceramic | Decoupling capacitors: Place one across VCC & GND for every IC | 8 |
-| Hardware & Power | Push Button | Momentary switch for manual trigger input | 1 |
-| | SPDT Switch | Slide/Toggle switch to control Up/Down direction | 1 |
-| | Breadboard | Large 830 tie-point breadboards (required for space) | 2 |
-| | Jumper Wires | Box/Kit of assorted lengths for breadboarding | 1 |
-| | 5V Power Supply | Regulated 5V source (breadboard module or bench supply) | 1 |
-
 ## IC Pinout Tables
 
 ### 1) NE555 Timer IC (Astable Mode)
@@ -112,10 +84,13 @@ The following captures show the displayed number and corresponding traffic-light
 | 5 one.png | ![5 one](5%20one.png) |
 | 7 one.png | ![7 one](7%20one.png) |
 | parts.png | ![Parts](parts.png) |
+| circuit physical front.jpeg | ![Circuit physical front](circuit%20physical%20front.jpeg) |
+| physical circuit front.jpeg | ![Physical circuit front](physical%20circuit%20front.jpeg) |
 
 ## Project Files Included
 - [Assignment document](Assignment%20(5).docx)
 - [Simulation output video](final%20elrctronic%20output.mp4)
+- [Proteus circuit archive](circuit%20protues.zip)
 
 ## How to Run the Simulation
 1. Install **Proteus Design Suite**.
