@@ -91,6 +91,7 @@ The following captures show the displayed number and corresponding traffic-light
 - [Assignment document](Assignment%20(5).docx)
 - [Simulation output video](final%20elrctronic%20output.mp4)
 - [Proteus circuit archive](circuit%20protues.zip)
+- [Logisim circuit file](logism%20ic%20circuit.circ)
 
 ## How to Run the Simulation
 1. Install **Proteus Design Suite**.
