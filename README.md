@@ -81,6 +81,7 @@ The following captures show the displayed number and corresponding traffic-light
 ### Additional Captures
 | File | Screenshot |
 |---|---|
+| logism circut photo.png | ![Logisim Circuit photo](logism%20circut%20photo.png) |
 | 5 one.png | ![5 one](5%20one.png) |
 | 7 one.png | ![7 one](7%20one.png) |
 | parts.png | ![Parts](parts.png) |
