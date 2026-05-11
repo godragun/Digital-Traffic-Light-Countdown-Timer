@@ -1,7 +1,47 @@
 # Digital Traffic Light Countdown Timer (9 to 0)
 
 ## Project Overview
-This project is a digital logic simulation of a countdown timer (from 9 to 0) integrated with a traffic light system. The circuit is designed and simulated using **Proteus** and relies on digital logic ICs, specifically the **NE555 timer**, **74193 down-counter**, and **74LS47 BCD to 7-segment decoder**.
+This project is a digital logic simulation of a countdown timer (from 9 to 0) integrated with a traffic light system. The circuit is designed and simulated using **Proteus** and relies on digital logic circuit components.
+
+---
+
+## Images
+
+### Simulation & Circuit Photos
+
+#### Green Phase
+| State | Screenshot |
+|---|---|
+| Number 0 (Green) | ![0 - Green](0.png) |
+
+#### Red Phase
+| State | Screenshot |
+|---|---|
+| Number 7 (Red) | ![7 - Red](7.png) |
+| Number 6 (Red) | ![6 - Red](6.png) |
+| Number 5 (Red) | ![5 - Red](5.png) |
+| Number 4 (Red) | ![4 - Red](4.png) |
+| Number 3 (Red) | ![3 - Red](3.png) |
+
+#### Amber/Yellow Phase
+| State | Screenshot |
+|---|---|
+| Number 9 (Yellow) | ![9 - Yellow](9.png) |
+| Number 8 (Yellow) | ![8 - Yellow](8.png) |
+| Number 2 (Yellow) | ![2 - Yellow](2.png) |
+| Number 1 (Yellow) | ![1 - Yellow](1.png) |
+
+#### Additional Captures
+| File | Screenshot |
+|---|---|
+| logism circut photo.png | ![Logisim Circuit photo](logism%20circut%20photo.png) |
+| 5 one.png | ![5 one](5%20one.png) |
+| 7 one.png | ![7 one](7%20one.png) |
+| parts.png | ![Parts](parts.png) |
+| circuit physical front.jpeg | ![Circuit physical front](circuit%20physical%20front.jpeg) |
+| physical circuit front.jpeg | ![Physical circuit front](physical%20circuit%20front.jpeg) |
+
+---
 
 ## System Logic and Sequence
 The system counts down from **9 to 0** with a **1 Hz clock cycle** (50% duty cycle) triggered by a start switch.
@@ -52,41 +92,6 @@ Traffic light behavior by count value:
 | 3 | LT | Lamp Test (tied HIGH) |
 | 4 | BI/RBO | Blanking Input (tied HIGH) |
 | 5 | RBI | Ripple Blanking Input (tied HIGH) |
-
-## Simulation Images
-The following captures show the displayed number and corresponding traffic-light state.
-
-### Green Phase
-| State | Screenshot |
-|---|---|
-| Number 0 (Green) | ![0 - Green](0.png) |
-
-### Red Phase
-| State | Screenshot |
-|---|---|
-| Number 7 (Red) | ![7 - Red](7.png) |
-| Number 6 (Red) | ![6 - Red](6.png) |
-| Number 5 (Red) | ![5 - Red](5.png) |
-| Number 4 (Red) | ![4 - Red](4.png) |
-| Number 3 (Red) | ![3 - Red](3.png) |
-
-### Amber/Yellow Phase
-| State | Screenshot |
-|---|---|
-| Number 9 (Yellow) | ![9 - Yellow](9.png) |
-| Number 8 (Yellow) | ![8 - Yellow](8.png) |
-| Number 2 (Yellow) | ![2 - Yellow](2.png) |
-| Number 1 (Yellow) | ![1 - Yellow](1.png) |
-
-### Additional Captures
-| File | Screenshot |
-|---|---|
-| logism circut photo.png | ![Logisim Circuit photo](logism%20circut%20photo.png) |
-| 5 one.png | ![5 one](5%20one.png) |
-| 7 one.png | ![7 one](7%20one.png) |
-| parts.png | ![Parts](parts.png) |
-| circuit physical front.jpeg | ![Circuit physical front](circuit%20physical%20front.jpeg) |
-| physical circuit front.jpeg | ![Physical circuit front](physical%20circuit%20front.jpeg) |
 
 ## Project Files Included
 - [Assignment document](Assignment%20(5).docx)
